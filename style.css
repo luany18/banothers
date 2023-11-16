@@ -1,0 +1,258 @@
+/*logo do menu*/
+.logo{
+    width: 50px;
+}
+
+/*imagem banothers*/
+.title{
+    background-image: url(imagens/DSCN2670.JPG);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.collapse {
+    display: flex;
+    align-items: center;
+}
+   
+.contanier1{
+    padding: 6%;
+}
+
+.title h1, .title p{
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.row h2 {
+    margin-top: -50px;
+}
+
+.container {
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.banner {
+    margin: 0;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner img {
+    width: 400px;
+}
+
+.text {
+    width: 50%;
+}
+
+.sobre h2{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.col-sm-6 img{
+    max-width: 70%;
+    width: 90rem;
+    height: auto;
+}
+
+.produtos h2{
+    align-items: center;
+    text-align: center;
+    margin-top: 9%;
+
+
+}
+
+.container-produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*cadastro*/
+
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 5px;
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: black;
+    width: 500px;
+    border-radius: 10px;
+}
+
+section h2{
+    color: #fff;
+    font-size: 2.2rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+form label{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 15px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px;
+    color: #fff;
+    transition: all 1s;
+}
+
+form button:hover{
+    color: #fff;
+    color: #fff;
+    border-radius: 16px;
+}
+
+
+/*pagina de contato*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #ebe7e7;
+    padding-top: 50px;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.logo1 {
+    width: 70px;
+}
+
+.col-install {
+    width: 200px;
+    
+}
+
+.icon {
+    color: black;
+}
+
+.icons a {
+    font-size: 1.5em;
+}
+
+/*pagina obrigado*/
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f7d6af;
+    flex-direction: column;
+
+}
+
+.text2{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: black;
+    margin-bottom: 30px;
+}
+
+.btn{
+    padding: 15px 45px;
+    background: #fff;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
