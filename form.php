@@ -27,7 +27,7 @@ require_once 'Mysql.php';
                 $stmt->bindParam(':nome', $nome);
                 $stmt->bindParam(':email', $email);
                 $stmt->execute();  
-                header('Location: obrigado.html');
+                header('Location: obrigado.php');
             }
             catch (Exception $e) {
                 echo '<h2 style="color:red;">Erro ao inserir dados:(</h2>';
