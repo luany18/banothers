@@ -172,8 +172,6 @@ include('config.php');
             <h4>Formas de entrega</h4>
             <a href="#">Delivery</a>
             <a href="#">Delivery Information</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
             <a href="#">Contact Us</a>
         </div>
 

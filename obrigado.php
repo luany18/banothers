@@ -9,7 +9,7 @@
 <body class="main">
     <h1 class="text2">Obrigado pelo contato</h1>
     <p class="paragrafo">Em breve nós enviamos novidades!!!</p>
-    <a href="/index.html" class="btn">Home</a>
+    <a href="/tccbanothers" class="btn">Home</a>
     
 </body>
 </html>
